@@ -1,0 +1,15 @@
+columns:
+    name:
+        label: Name
+        type: text
+        searchable: true
+        sortable: true
+    positions:
+        label: Positions
+        type: text
+        sortable: true
+    best_time:
+        label: 'Best Time'
+        type: time
+        searchable: true
+        sortable: true

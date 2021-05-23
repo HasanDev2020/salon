@@ -1,0 +1,100 @@
+
+/* = = = = = === =  box_contact  = = = == = = == == = = */
+body , html{
+    background-color: white;
+
+}
+.container-xll{
+    overflow-x: hidden !important;
+}
+.main_Page_scroll{
+overflow: auto !important;
+}
+.omOSS{
+    height: calc(100vh);
+}
+
+
+
+/*Media Query Bs4 CoolNet.No */
+
+@media(max-width:899px)
+{
+    body{
+        background-color: white;
+        overflow-y: auto !important;
+        height: auto !important;
+    }
+    .main_Page_scroll{
+    height: auto !important;
+    overflow: auto !important;
+    }
+}
+
+.titlle_wrap2 {
+    font-family: "New Tegomin", serif;
+  }
+   .titlle_wrap2 h3 {
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "New Tegomin", serif;
+    margin-bottom: 0;
+  }
+   .titlle_wrap2 p {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    font-family: "New Tegomin", serif;
+    position: relative;
+  }
+  .text_col
+  {
+    padding-left: 50px;
+    padding-top: 40px;
+  }
+
+  .omOSS img{
+      border-radius: 0px 0px 0px 0px ;
+  }
+
+  .moreinfo{
+    padding: 12px 40px;
+      background-color: #1175bc;
+      border-radius: 50px;
+      color: white;
+      transition: 0.3s ease-in-out;
+    border: 1px solid transparent;
+    margin-top: 25px;
+    display: inline-block;
+  }
+  p{
+    font-size: 16px;
+  }
+  .moreinfo:hover{
+    color: #1175bc;
+    background-color: white;
+    border: 1px solid #1175bc;
+  }
+  @media(max-width:899px)
+{
+    body{
+        background-color: white;
+        overflow-y: auto !important;
+        height: auto !important;
+    }
+    .main_Page_scroll {
+    height: auto !important;
+    overflow: auto !important;
+    }
+    .omOSS{
+        height: auto !important;
+        overflow: hidden;
+    }
+    .text_col
+    {
+      background-color: #fafafb;
+      padding: 5px 30px;
+    }
+}

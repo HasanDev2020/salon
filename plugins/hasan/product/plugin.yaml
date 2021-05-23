@@ -1,0 +1,19 @@
+plugin:
+    name: 'hasan.products::lang.plugin.name'
+    description: 'hasan.product::lang.plugin.description'
+    author: hasan
+    icon: oc-icon-archive
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Products
+        url: hasan/product/products
+        icon: icon-archive
+    main-menu-item2:
+        label: Teams
+        url: hasan/product/teams
+        icon: icon-asterisk
+    main-menu-item3:
+        label: Messages
+        url: hasan/product/messages
+        icon: icon-bell

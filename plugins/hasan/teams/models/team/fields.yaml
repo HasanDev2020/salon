@@ -1,0 +1,17 @@
+fields:
+    name:
+        label: 'Emp Name'
+        span: auto
+        type: text
+    positions:
+        label: Positions
+        options:
+            - Stylist
+            - 'Skin Care'
+        span: auto
+        type: checkboxlist
+    best_time:
+        label: 'Best Time'
+        span: full
+        mode: datetime
+        type: datepicker

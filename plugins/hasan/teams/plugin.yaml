@@ -1,0 +1,6 @@
+plugin:
+    name: 'hasan.teams::lang.plugin.name'
+    description: 'hasan.teams::lang.plugin.description'
+    author: hasan
+    icon: oc-icon-adjust
+    homepage: ''

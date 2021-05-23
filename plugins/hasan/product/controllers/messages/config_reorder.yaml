@@ -1,0 +1,4 @@
+title: Messages
+modelClass: Hasan\Product\Models\Message
+toolbar:
+    buttons: reorder_toolbar

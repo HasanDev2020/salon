@@ -1,0 +1,10 @@
+columns:
+    username:
+        label: Username
+        type: text
+    text_message:
+        label: Message
+        type: text
+    created_at:
+        label: 'Receved At'
+        type: date

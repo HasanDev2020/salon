@@ -1,0 +1,45 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    image:
+        label: 'Upload Image'
+        mode: image
+        imageWidth: '100'
+        imageHeight: '100'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    positions:
+        label: Positions
+        options:
+            - 'skin care'
+            - stylelist
+        showSearch: true
+        span: auto
+        type: dropdown
+    fb_url:
+        label: 'Facebook Url'
+        span: auto
+        type: text
+    twitter_url:
+        label: 'Twitter Url'
+        span: auto
+        type: text
+    insta_url:
+        label: 'Instagram Url'
+        span: auto
+        type: text
+    snap_url:
+        label: 'Snapchat Url'
+        span: auto
+        type: text
+    best_time:
+        label: 'Best Time'
+        mode: time
+        span: auto
+        type: datepicker

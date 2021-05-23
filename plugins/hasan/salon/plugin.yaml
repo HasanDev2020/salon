@@ -1,0 +1,6 @@
+plugin:
+    name: 'hasan.salon::lang.plugin.name'
+    description: 'hasan.salon::lang.plugin.description'
+    author: hasan
+    icon: oc-icon-adjust
+    homepage: ''

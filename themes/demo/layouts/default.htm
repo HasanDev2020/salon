@@ -1,0 +1,66 @@
+description = "Default layout"
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HJEM - {{ this.page.title }}</title>
+        <meta name="description" content="{{ this.page.meta_description }}">
+        <meta name="title" content="{{ this.page.meta_title }}">
+        <meta name="author" content="OctoberCMS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="OctoberCMS">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
+        <link href="{{ 'assets/css/vendor.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/vendor/codemirror/codemirror.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/theme.css'|theme }}" rel="stylesheet">
+        <!---------------------new design--------------------------------->
+        <link rel="stylesheet" href="{{'assets/css/animate.css'|theme }}">
+        <link rel="stylesheet" href="{{'assets/css/FontAwosome5.css'|theme }}">
+        <link rel="stylesheet" href="{{'assets/css/bootstrap.min.css'|theme}}">
+        <link rel="stylesheet" href="{{'assets/css/uikit.min.css'|theme}}">
+        <!-- Sidebar Is Global such as Header.css -->
+        <link rel="stylesheet" href="{{'assets/css/sideBar.css'|theme}}">
+        <link rel="stylesheet" href="{{'assets/css/index.css'|theme}}">
+        <link rel="stylesheet" href="{{'assets/css/owl_v3.2.1.css'|theme}}">
+        <link rel="stylesheet" href="{{'assets/css/owl_theme.css'|theme}}">
+        {% styles %}
+    </head>
+    <body class="{{ 'page-'~this.page.id }}">
+
+        <!-- Header -->
+            {% partial 'site/header' %}
+
+        <!-- Sidebar -->
+            {% partial 'side-bar' %}
+
+        <!-- Content -->
+        <div class="main_Page_scroll">
+            {% page %}
+        </div>
+
+        <!-- Footer -->
+        <footer id="layout-footer">
+            {% partial 'site/footer' %}
+        </footer>
+
+        <!-- Scripts -->
+
+        <script src="{{ [
+            'assets/vendor/codemirror/codemirror.js',
+            'assets/vendor/codemirror/twig.js',
+            'assets/javascript/app.js',
+            'assets/javascript/jquery-3.3.1.min.js',
+            'assets/javascript/popper.js',
+            'assets/javascript/bootstrap.min.js',
+            'assets/javascript/uikit.min.js',
+            'assets/javascript/uikit-icons.min.js',
+            'assets/javascript/owl_v3.2..1.js',
+            'assets/javascript/sidebar.js',
+            'assets/javascript/index.js',
+        ]|theme }}"></script>
+
+        {% framework extras %}
+        {% scripts %}
+    </body>
+</html>

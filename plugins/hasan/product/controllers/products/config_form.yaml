@@ -1,0 +1,10 @@
+name: Products
+form: $/hasan/product/models/product/fields.yaml
+modelClass: Hasan\Product\Models\Product
+defaultRedirect: hasan/product/products
+create:
+    redirect: 'hasan/product/products/update/:id'
+    redirectClose: hasan/product/products
+update:
+    redirect: hasan/product/products
+    redirectClose: hasan/product/products

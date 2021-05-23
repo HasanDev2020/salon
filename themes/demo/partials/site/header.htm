@@ -1,0 +1,34 @@
+==
+<?php
+function onStart()
+{
+    $this['backendUrl'] = System::checkDebugMode() ? Backend::url('/') : null;
+}
+?>
+==
+<div class="cool_netWrap">
+        <!-- NavHeader -->
+        <nav class="uk-navbar-container" uk-navbar="boundary-align: true;" uk-sticky="bottom: body">
+            <div class="uk-navbar-center">
+                <div class="uk-navbar-center-left" style="right: 140%;">
+                    <div>
+                        <ul class="uk-navbar-nav">
+                            <li class="d-block d-lg-none"><a href="#" uk-toggle="target: #offcanvas-slide"><span
+                                        uk-icon="icon: menu; ratio: 1"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a class="uk-navbar-item uk-logo" href="index.html"><img style="width: 100px;"
+                        src="{{'Logo_white.png'|media}}" alt=""></a>
+
+                <div class="uk-navbar-center-right" style="left: 140%;">
+                    <div>
+                        <ul class="uk-navbar-nav">
+                            <li class="d-block d-lg-none"><a class="pr-2" href="#" uk-icon="facebook"></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>

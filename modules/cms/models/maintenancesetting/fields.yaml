@@ -1,0 +1,18 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+
+    hint:
+        type: tip
+        label: cms::lang.maintenance.hint
+
+    is_enabled:
+        label: cms::lang.maintenance.is_enabled
+        comment: cms::lang.maintenance.is_enabled_comment
+        type: checkbox
+
+    cms_page:
+        type: dropdown
+        cssClass: checkbox-align

@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table hasan_teams_emp'
+    - builder_table_create_hasan_teams_emp.php
+1.0.3:
+    - 'Updated table hasan_teams_emp'
+    - builder_table_update_hasan_teams_emp.php
+1.0.4:
+    - 'Updated table hasan_teams_emp'
+    - builder_table_update_hasan_teams_emp_2.php

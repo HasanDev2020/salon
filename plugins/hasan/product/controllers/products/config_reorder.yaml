@@ -1,0 +1,4 @@
+title: Products
+modelClass: Hasan\Product\Models\Product
+toolbar:
+    buttons: reorder_toolbar

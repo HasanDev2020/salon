@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    overflow-y: auto !important;
+}
+.main_Page_scroll{
+overflow: auto !important;
+}
+
+
+.text1{
+    padding-top: 20px;
+    color: white;
+    font-family: "Londrina Solid", cursive;
+}
+.text2{
+    color: white;
+}
+.box_product{
+    background-color:#1a1a1a;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+}
+.box_product .imgProd img{
+    height: 180px;
+    object-fit: contain;
+}
+.prod_info .name_prod{
+    font-size: 22px;
+}
+.prod_info .price{
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+
+
+@media(max-width:899px)
+{
+    body{
+        overflow-y: auto !important;
+        height: auto !important;
+    }
+    .main_Page_scroll{
+    height: auto !important;
+    overflow: auto !important;
+    }
+}

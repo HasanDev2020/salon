@@ -1,0 +1,39 @@
+fields:
+    title:
+        label: 'Product Title'
+        span: full
+        placeholder: Title
+        type: text
+    price:
+        label: 'Product Price'
+        span: full
+        placeholder: Price
+        type: number
+    description:
+        label: 'Product Description'
+        size: large
+        span: full
+        placeholder: Description
+        type: richeditor
+    image:
+        label: 'Image Upload'
+        mode: image
+        imageWidth: '100'
+        imageHeight: '100'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    product_gallery:
+        label: Images
+        mode: image
+        imageWidth: '80'
+        imageHeight: '80'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

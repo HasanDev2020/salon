@@ -1,0 +1,6 @@
+plugin:
+    name: 'hasan.products::lang.plugin.name'
+    description: 'hasan.products::lang.plugin.description'
+    author: hasan
+    icon: oc-icon-sitemap
+    homepage: ''

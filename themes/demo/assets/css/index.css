@@ -1,0 +1,294 @@
+.uk-slideshow-items {
+  min-height: 100vh !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+.main_Page_scroll video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+.sliderBG {
+  position: relative;
+}
+.overaySlider {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.323);
+}
+
+.teams {
+  width: calc(100vw - 186px);
+  position: absolute;
+  /* top: 0; */
+  left: auto;
+  right: 0;
+  z-index: 100;
+  top: 50vh;
+  margin-top: auto;
+  margin-bottom: auto;
+  transform: translate(0%, -50%);
+}
+.main_titleWrap{
+    margin-top: 40px;
+}
+.main_title {
+  font-family: "Sigmar One", cursive;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  width: max-content;
+  position: relative;
+  margin: 0 auto;
+}
+.main_title i {
+  position: absolute;
+  top: -18px;
+  left: -30px;
+  font-size: 50px;
+  color: #ac1005;
+  transform: rotate(45deg);
+  transition: 0.3s all;
+}
+
+.shadow-effect {
+  position: relative;
+ /* background: rgba(255, 255, 255, 0.529);*/
+ background: #1a1a1a;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  overflow: hidden;
+  border: 1px solid transparent;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.02);
+}
+.shadow-effect:hover .soicl_icons_g {
+  right: 20px;
+}
+
+.soicl_icons_g {
+  margin-bottom: 15px;
+  background-color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-align: center;
+  transition: 0.3s linear;
+  width: 30px;
+  right: -80px;
+}
+.box_rel a {
+  color: rgb(85, 84, 84);
+}
+
+.icons1 {
+  position: absolute;
+  top: 30px;
+  transition: 0.2s linear;
+}
+.icons2 {
+  position: absolute;
+  top: 70px;
+  transition: 0.4s linear;
+}
+.icons3 {
+  position: absolute;
+  top: 110px;
+  transition: 0.6s linear;
+}
+.icons4 {
+  position: absolute;
+  top: 150px;
+  transition: 0.8s linear;
+}
+.soicl_icons_g:hover.icons1 {
+  color: #3b5998;
+}
+.soicl_icons_g:hover.icons2 {
+  color: #8a3ab9;
+}
+.soicl_icons_g:hover.icons3 {
+  color: #fffc00;
+}
+.soicl_icons_g:hover.icons4 {
+  color: #00acee;
+}
+.Name_person {
+  font-size: 22px;
+  font-family: "Londrina Solid", cursive;
+  margin: 0px 0px 5px 0px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.employee_pos {
+  font-size: 15px;
+  font-family: "New Tegomin", serif;
+  margin: 0px 0px 5px 0px;
+  color: white;
+  font-weight: 600;
+  position: relative;
+}
+.employee_pos::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  text-align: center;
+  width: 60px;
+  height: 2px;
+  z-index: 9999;
+  background-color: #ac1005;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: 30px;
+}
+.Bestil_btn {
+  color: white;
+  padding: 8px 42px;
+  background-color: #ac1005;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s linear;
+  position: relative;
+}
+.Bestil_btn:hover {
+  color: #ac1005;
+  background-color: white;
+}
+.teams .owl-item.active.center .Bestil_btn i {
+  position: absolute;
+  top: -300px;
+  transition: 0.5s linear;
+  font-size: 25px;
+  transform: rotate(45deg);
+  left: -50px;
+}
+.teams .owl-item .Bestil_btn i {
+  position: absolute;
+  top: -200px;
+  transition: 0.5s linear;
+  font-size: 25px;
+  transform: rotate(45deg);
+  left: -50px;
+}
+.teams .owl-item.active.center .Bestil_btn:hover i {
+  top: -12px;
+  left: -15px;
+}
+.teams .owl-item .Bestil_btn:hover i {
+  top: -12px;
+  left: -15px;
+}
+#customers-teams .item {
+  height: 470px !important;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 80px;
+  opacity: 0.5;
+  -webkit-transform: scale3d(0.8, 0.8, 1);
+  transform: scale3d(0.8, 0.8, 1);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#customers-teams .owl-item.active.center .item {
+  opacity: 1;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+.teams .owl-carousel .owl-item .img-circle {
+  transform-style: preserve-3d;
+  max-width: 170px;
+  width: 50%;
+  height: 100px;
+  object-fit: contain;
+  margin: 0 auto 17px;
+  transition: transform 0.5s;
+}
+.teams .owl-carousel .owl-item.owl-item.active.center .img-circle {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+.teams .owl-carousel .owl-item .img-circle:hover {
+  transform: scale(0.9);
+}
+#customers-teams.owl-carousel .owl-dots .owl-dot.active span,
+#customers-teams.owl-carousel .owl-dots .owl-dot:hover span {
+  background: #ac1005;
+  transform: translate3d(0px, -50%, 0px) scale(0.7);
+}
+#customers-teams.owl-carousel .owl-dots {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 25px;
+  z-index: 9999;
+}
+#customers-teams.owl-carousel .owl-dots .owl-dot {
+  display: inline-block;
+}
+#customers-teams.owl-carousel .owl-dots .owl-dot span {
+  background: #fff;
+  display: inline-block;
+  height: 20px;
+  margin: 0 2px 5px;
+  margin-top: 50px;
+  transform: translate3d(0px, -50%, 0px) scale(0.3);
+  transform-origin: 50% 50% 0;
+  transition: all 250ms ease-out 0s;
+  width: 20px;
+  outline: none;
+  border-radius: 50% !important;
+}
+.owl-dot,
+.owl-dot:active,
+.owl-dot:focus {
+  outline: 0 !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  #customers-teams.owl-carousel .owl-dots .owl-dot span {
+    height: 20px;
+    width: 20px;
+    margin-top: 30px;
+  }
+}
+
+
+@media(max-width:899px)
+{
+    .main_titleWrap {
+        margin-top: 120px;
+    }
+    .teams .owl-carousel .owl-item.owl-item.active.center .img-circle {
+      width: 100%;
+      height: 180px;
+      object-fit: contain;
+  }
+  #customers-teams .item {
+    height: 470px !important;
+    text-align: center;
+    padding: 20px 30px;
+     margin-bottom: 0px;
+    opacity: 0.5;
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+}
